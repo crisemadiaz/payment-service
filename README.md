@@ -52,3 +52,13 @@ volumes:
 
 networks:
   backend:
+
+
+
+#Comandos para Iniciar: Construir imágenes y levantar contenedores docker-compose up --build
+
+Detener contenedores docker-compose down
+
+Ejecutar en segundo plano docker-compose up -d
+
+#Desarrollo Local: Si prefieres ejecutarlo directamente: Instala dependencias: npm install Inicia el servidor: npm start
