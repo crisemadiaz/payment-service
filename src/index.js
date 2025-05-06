@@ -8,9 +8,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/app/payment', paymentRoutes);
+app.use('/', paymentRoutes);
 
-const PORT = process.env.PORT || 3004;
+const PORT = process.env.PAYMENT_PORT || 3004;
 app.listen(PORT, () =>{
     console.log(`Payment Service escuchando en el puerto ${PORT}`);
 });
